@@ -1,0 +1,4 @@
+#! /bin/bash
+# personal account
+git config --global user.name "a"
+git config --global user.email "a"

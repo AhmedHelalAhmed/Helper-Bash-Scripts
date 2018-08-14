@@ -8,4 +8,4 @@ to switch between php5.6 and php7.2
 <h2>vh</h2>
 to make virtual host
 <h2>send</h2>
-to automate git commends
+to automate git commands

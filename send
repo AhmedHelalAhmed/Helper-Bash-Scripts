@@ -1,0 +1,8 @@
+#! /bin/bash
+message=$1; # comes from commendline
+branch='ahmedhelal'; # you can change is branch as need
+development_branch='dev'; # the development branch 
+git pull origin "development_branch";
+git add -A ;
+git commit -m "$message";
+git push origin "$branch";

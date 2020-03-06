@@ -20,5 +20,9 @@ to make virtual host
 <h2>send</h2>
 to automate git commands
 <hr>
+<h2>Laravel project_name version_name</h2>
+to make new project of laravel and the version is the lates and you can put cutom version
+<hr>
 <h2>testinternet</h2>
 ping 8.8.8.8 you can notice if there is internet you will get response to stop it just ctrl+c
+<hr>

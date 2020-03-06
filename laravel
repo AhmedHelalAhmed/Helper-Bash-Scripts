@@ -1,0 +1,12 @@
+#! /bin/bash
+projectName=$1; # example blog
+projectversion=$2; # v6.8.0
+
+if(($projectversion))
+then
+    composer create-project laravel/laravel $projectName --prefer-dist  $projectversion;
+else
+    composer create-project --prefer-dist laravel/laravel $projectName;
+fi
+
+

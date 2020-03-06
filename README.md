@@ -1,8 +1,9 @@
 # Helper-Bash-Scripts
+
 <h1>How to use: </h1>
 1- clone the repo
 2- open terminal and run this command
-3- $sudo nautilus /usr/local/bin
+3- sudo nautilus /usr/local/bin
 4- copy the scripts to it 
 5- close the terminal and open it again 
 6- try to write in command in terminal

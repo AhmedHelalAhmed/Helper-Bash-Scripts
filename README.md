@@ -8,7 +8,7 @@
 3. sudo nautilus /usr/local/bin
 4. copy the scripts to it 
 5. close the terminal and open it again 
-6. try to write in command in terminal
+6. try to write command in terminal
 ~~~
 <h2> gita & gitc</h2>
 to switch the email which you use in git - (we always have two emails 1 personal and the other of work)

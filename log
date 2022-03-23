@@ -1,0 +1,11 @@
+#!/bin/bash
+filePath="$1"
+curr=$(<"$filePath")
+
+inotifywait -m -e modify -r "$filePath" --format "%e" | while read -r event; do
+    if [ "$event" == "MODIFY" ]; then
+        prev="$curr"
+        curr=$(<"$filePath")
+        [ "$curr" == "$prev" ] || notify-send "Some error check logs for "$filePath""; play "/usr/local/bin/new_log.mp3"
+    fi
+done
